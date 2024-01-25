@@ -1,0 +1,51 @@
+body {
+  background-color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+a :hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+form {
+  padding: 10px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+input {
+  border-radius: 5px;
+  border-color: beige;
+  display: block;
+}
+
+button {
+  padding: 10px;
+  background-color: black;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button :hover {
+  background-color: salmon;
+}
+
+select {
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+div {
+  display: grid;
+  place-items: center;
+}
